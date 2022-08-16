@@ -22,7 +22,7 @@ endif
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../inc
 LOCAL_C_INCLUDES += $(LOCAL_PATH)
 
-LOCAL_HEADER_LIBRARIES := generated_kernel_headers
+LOCAL_HEADER_LIBRARIES := device_kernel_headers
 
 LOCAL_CLANG := true
 LOCAL_MODULE := librmnetctl
